@@ -27,7 +27,10 @@ if (c == 1):
 elif (c == 2):
    print("Resultado: ",sub(a, b))
 elif (c == 3):
-    print("Resultado: ",div(a, b))
+        if a == 0 or b == 0:
+            print("Não é possível fazer divisão por zero, insira um número válido")
+        else:
+            print("Resultado: ",div(a, b))
 elif (c == 4):
     print("Resultado: ",mult(a, b))
 else:
