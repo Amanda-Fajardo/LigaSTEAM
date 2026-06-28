@@ -15,4 +15,5 @@ listaNaoOrdenada.innerHTML = `
 listaOrdenada.innerHTML = `
     <li><a href="https://www.google.com" target="_blank">Google</a></li>
     <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+    <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
 `;
